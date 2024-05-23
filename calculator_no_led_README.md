@@ -1,6 +1,6 @@
 # Notes on Calculator No LED
 
-## logic of defining of the variables first and second
+## logic of defining the variables first and second
 
 Multiplying the value of the input from customKey by 10 allows for the number to be multiple digits. For example to enter the number 137
 
@@ -22,9 +22,9 @@ first = first * 10 + (customKey - '0');
 
 if there's a total from a previous calculation, it becomes the value of the **first** variable. Otherwise get the value from customKeypad.getKey() and apply it to **first** variable
 
-print 'sign' of operation, e.g., +,-
+print sign of the operation, e.g., +,-
 
-call SecondNumber to handle adding value to the 'second' variable
+call SecondNumber to handle adding value to the **second** variable
 
 calculate the total
 
